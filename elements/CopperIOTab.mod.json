@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Copper IO Tab",
+    "icon": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "showSearch": true
+  }
+}

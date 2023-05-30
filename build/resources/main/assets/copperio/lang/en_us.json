@@ -1,0 +1,11 @@
+{
+  "item.copperio.copper_armor_leggings": "Copper Leggings",
+  "item.copperio.copper_armor_helmet": "Copper Helmet",
+  "item.copperio.copper_armor_chestplate": "Copper Body",
+  "itemGroup.tabcopper_io_tab": "Copper IO Tab",
+  "item.copperio.copper_armor_boots": "Copper Boots",
+  "item.copperio.coppersword": "Coppersword",
+  "advancements.coparmor.title": "Coppered",
+  "advancements.coparmor.descr": "Acquire Copper Armor",
+  "item.copperio.copperpick": "Copperpick"
+}
