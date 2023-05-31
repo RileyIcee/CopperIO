@@ -3,8 +3,11 @@
   "item.copperio.copper_armor_helmet": "Copper Helmet",
   "item.copperio.copper_armor_chestplate": "Copper Body",
   "itemGroup.tabcopper_io_tab": "Copper IO Tab",
+  "item.copperio.copper_hoe": "Copper Hoe",
   "item.copperio.copper_armor_boots": "Copper Boots",
   "item.copperio.coppersword": "Coppersword",
+  "item.copperio.copper_shovel": "Copper Shovel",
+  "item.copperio.copperaxe": "Copper Axe",
   "advancements.coparmor.title": "Coppered",
   "advancements.coparmor.descr": "Acquire Copper Armor",
   "item.copperio.copperpick": "Copperpick"

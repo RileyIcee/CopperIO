@@ -12,6 +12,9 @@ import net.minecraft.world.item.Item;
 
 import com.rileyicee.copperio.item.CopperswordItem;
 import com.rileyicee.copperio.item.CopperpickItem;
+import com.rileyicee.copperio.item.CopperaxeItem;
+import com.rileyicee.copperio.item.CopperShovelItem;
+import com.rileyicee.copperio.item.CopperHoeItem;
 import com.rileyicee.copperio.item.CopperArmorItem;
 import com.rileyicee.copperio.CopperioMod;
 
@@ -23,4 +26,7 @@ public class CopperioModItems {
 	public static final RegistryObject<Item> COPPER_ARMOR_LEGGINGS = REGISTRY.register("copper_armor_leggings", () -> new CopperArmorItem.Leggings());
 	public static final RegistryObject<Item> COPPER_ARMOR_BOOTS = REGISTRY.register("copper_armor_boots", () -> new CopperArmorItem.Boots());
 	public static final RegistryObject<Item> COPPERSWORD = REGISTRY.register("coppersword", () -> new CopperswordItem());
+	public static final RegistryObject<Item> COPPERAXE = REGISTRY.register("copperaxe", () -> new CopperaxeItem());
+	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
+	public static final RegistryObject<Item> COPPER_HOE = REGISTRY.register("copper_hoe", () -> new CopperHoeItem());
 }

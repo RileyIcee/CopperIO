@@ -1,0 +1,175 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperIOTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_io_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/copperio/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/copperio/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/copperio/models/item/copper_armor_helmet.json",
+          "src/main/java/com/rileyicee/copperio/item/CopperArmorItem.java",
+          "src/main/resources/assets/copperio/models/item/copper_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Boots",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/recipes/copperboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Leggings",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/recipes/copperleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperchestplate",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/recipes/copperchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhelmet",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/recipes/copperhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Coparmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coparmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/advancements/coparmor.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpick",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rileyicee/copperio/item/CopperpickItem.java",
+          "src/main/resources/assets/copperio/models/item/copperpick.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rileyicee/copperio/item/CopperswordItem.java",
+          "src/main/resources/assets/copperio/models/item/coppersword.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/copperio/models/item/copperaxe.json",
+          "src/main/java/com/rileyicee/copperio/item/CopperaxeItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.copperio.copper_armor_leggings": "Copper Leggings",
+      "item.copperio.copper_armor_helmet": "Copper Helmet",
+      "item.copperio.copper_armor_chestplate": "Copper Body",
+      "itemGroup.tabcopper_io_tab": "Copper IO Tab",
+      "item.copperio.copperaxe": "Copper Axe",
+      "item.copperio.copper_armor_boots": "Copper Boots",
+      "item.copperio.coppersword": "Coppersword",
+      "advancements.coparmor.title": "Coppered",
+      "advancements.coparmor.descr": "Acquire Copper Armor",
+      "item.copperio.copperpick": "Copperpick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "copperio",
+    "modName": "CopperIO",
+    "version": "1.0.0",
+    "author": "hankb, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "com.rileyicee.copperio",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

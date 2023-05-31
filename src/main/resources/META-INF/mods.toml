@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="Mozilla Public License 1.0 (MPL)"
 
 [[mods]]
 modId="copperio"
-version="1.0.0"
+version="0.1.2"
 displayName="CopperIO"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/copperio"
 authors="hankb, MCreator"
+description='''
+Not Sponsored by Copper
+'''
 
 [[dependencies.copperio]]
     modId="minecraft"

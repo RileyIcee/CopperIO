@@ -13,6 +13,7 @@
     {
       "name": "CopperArmor",
       "type": "armor",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor",
@@ -77,6 +78,88 @@
           "src/main/resources/data/copperio/recipes/copperhelmet.json"
         ]
       }
+    },
+    {
+      "name": "Coparmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coparmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/copperio/advancements/coparmor.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpick",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rileyicee/copperio/item/CopperpickItem.java",
+          "src/main/resources/assets/copperio/models/item/copperpick.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rileyicee/copperio/item/CopperswordItem.java",
+          "src/main/resources/assets/copperio/models/item/coppersword.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/copperio/models/item/copperaxe.json",
+          "src/main/java/com/rileyicee/copperio/item/CopperaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/copperio/models/item/copper_shovel.json",
+          "src/main/java/com/rileyicee/copperio/item/CopperShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/rileyicee/copperio/item/CopperHoeItem.java",
+          "src/main/resources/assets/copperio/models/item/copper_hoe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -87,7 +170,14 @@
       "item.copperio.copper_armor_helmet": "Copper Helmet",
       "item.copperio.copper_armor_chestplate": "Copper Body",
       "itemGroup.tabcopper_io_tab": "Copper IO Tab",
-      "item.copperio.copper_armor_boots": "Copper Boots"
+      "item.copperio.copper_hoe": "Copper Hoe",
+      "item.copperio.copper_armor_boots": "Copper Boots",
+      "item.copperio.coppersword": "Coppersword",
+      "item.copperio.copper_shovel": "Copper Shovel",
+      "item.copperio.copperaxe": "Copper Axe",
+      "advancements.coparmor.title": "Coppered",
+      "advancements.coparmor.descr": "Acquire Copper Armor",
+      "item.copperio.copperpick": "Copperpick"
     }
   },
   "foldersRoot": {
